@@ -1,6 +1,6 @@
 package p02;
 
-public class BeginnerExcersice {
+public class BeginnerExercises {
         public static void main (String[] args){
             // 1. Declara una variable de tipo String y asígnale tu nombre.
             String myName = "Violeta";
