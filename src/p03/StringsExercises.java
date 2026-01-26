@@ -15,6 +15,7 @@ public class StringsExercises {
             System.out.println(name.toLowerCase());
         // 5. Comprueba si una cadena de texto contiene una palabra concreta.
             System.out.println(name.contains("leta"));
+            System.out.println(name.contains("uto"));
         // 6. Formatea un string con un entero.
             int age = 30;
             System.out.println(name.format("Hola, soy %s y tengo %d años", name, age));
@@ -25,6 +26,6 @@ public class StringsExercises {
         // 9. Comprueba si dos strings son iguales.
             System.out.println(name.equals(surname));
         // 10. Comprueba si dos strings tienen la misma longitud.
-        System.out.println(name.length() == surname.length());
+            System.out.println(name.length() == surname.length());
     }
 }
