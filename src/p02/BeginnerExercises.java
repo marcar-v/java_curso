@@ -23,7 +23,7 @@ public class BeginnerExercises {
             // 7. Declara una variable de tipo String con tu localidad, y a continuación cambia su valor y vuelve a imprimirla.
             String myTown = "Dúrcal";
             System.out.println(myTown);
-            myTown = "Churriana";
+            myTown = "Granada";
             System.out.println(myTown);
             // 8. Crea una variable int llamada a, otra b, e imprime la suma de ambas.
             int a = 2;
