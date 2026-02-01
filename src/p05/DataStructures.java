@@ -83,7 +83,48 @@ public class DataStructures {
         System.out.println(namesMap.size());
 
         //Añadir elementos
-        namesMap.put("Paula", "paula@gamail.com");
+        namesMap.put("Paula", "paula@gmail.com");
+        namesMap.put("Ana", "ana@gmail.com");
+        namesMap.put("Sofía", "sofia@gmail.com");
+
+        System.out.println(namesMap.size());
+        System.out.println(namesMap);
+
+        //Acceder a los elementos
+        System.out.println(namesMap.get("Sofía"));
+
+        //Verificar elementos
+        System.out.println(namesMap.containsKey("Lucía"));
+        System.out.println(namesMap.containsValue("ana@gmail.com"));
+
+        //Eliminar elementos
+        System.out.println(namesMap.remove("Sofía"));
+        System.out.println(namesMap);
+
+        // Limpieza
+
+        namesMap.clear();
+        System.out.println(namesMap);
+
+        // Modificación
+
+        namesMap.put("Ana", "ana@gmail.com");
+        System.out.println(namesMap);
+
+        namesMap.put("Paula", "paula@gmail.com");
+        System.out.println(namesMap);
+
+        namesMap.replace("Paula", "paula2@gmail.com"); // Reemplaza el valor si existe
+        System.out.println(namesMap);
+
+        namesMap.putIfAbsent("Lucía", "lucia@gmail.com"); // Solo lo añade si no existe
+        System.out.println(namesMap);
+
+        // Otras operaciones
+
+        System.out.println(namesMap.isEmpty());
+        var values = namesMap.values();
+        System.out.println(values);
     }
 }
 
