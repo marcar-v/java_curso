@@ -35,7 +35,6 @@ public class Functions {
         for(String email : emails){
             sendEmailToUser(email);
         }
-
     }
 
     //Función con retorno
