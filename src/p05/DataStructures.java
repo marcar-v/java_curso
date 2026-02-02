@@ -7,7 +7,6 @@ import java.util.Random;
 
 public class DataStructures {
     static void main (String[] args){
-        Maps();
     }
 
     static void Arrays(){

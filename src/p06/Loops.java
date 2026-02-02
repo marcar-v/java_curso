@@ -22,9 +22,9 @@ public class Loops {
         users.put("Mercedes", 72258695);
 
         for(Map.Entry<String, Integer> user : users.entrySet()){
-            IO.println(" ");
-            IO.println(user.getKey());
-            IO.println(user.getValue());
+            System.out.println(" ");
+            System.out.println(user.getKey());
+            System.out.println(user.getValue());
         }
 
         //Bucle while
@@ -66,7 +66,7 @@ public class Loops {
             if (name.equals("Paco")) {
                 break;
             }
-            IO.println(name);
+            System.out.println(name);
         }
 
         // continue
@@ -74,7 +74,7 @@ public class Loops {
             if(i == 3){
                 continue;
             }
-            IO.println("Hola, " + i);
+            System.out.println("Hola, " + i);
         }
     }
 
