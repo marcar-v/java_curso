@@ -1,4 +1,4 @@
-package p07;
+package p07_functions;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -97,5 +97,4 @@ public class FunctionsExercises {
                 System.out.println(email);
             }
         }
-
 }

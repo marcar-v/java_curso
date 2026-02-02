@@ -1,4 +1,4 @@
-package p06;
+package p06_loops;
 
 import java.util.HashMap;
 import java.util.Map;

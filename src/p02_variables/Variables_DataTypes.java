@@ -1,4 +1,4 @@
-package p02;
+package p02_variables;
 
 public class Variables_DataTypes {
     public static void main (String[] args){

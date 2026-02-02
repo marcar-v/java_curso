@@ -1,4 +1,4 @@
-package p04;
+package p04_conditionals;
 import java.util.Scanner;
 
 public class Conditional {

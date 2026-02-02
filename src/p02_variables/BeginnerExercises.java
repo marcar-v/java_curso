@@ -1,4 +1,4 @@
-package p02;
+package p02_variables;
 
 public class BeginnerExercises {
         public static void main (String[] args){

@@ -1,4 +1,4 @@
-package p01;
+package p01_introduction;
 
 public class HelloWorldExercises {
     static void main(String[] args) {

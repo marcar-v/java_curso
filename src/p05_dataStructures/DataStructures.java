@@ -1,4 +1,4 @@
-package p05;
+package p05_dataStructures;
 
 import java.util.ArrayList;
 import java.util.HashMap;

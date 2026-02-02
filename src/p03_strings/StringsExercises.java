@@ -1,4 +1,4 @@
-package p03;
+package p03_strings;
 
 public class StringsExercises {
     static void main (String[] args){
