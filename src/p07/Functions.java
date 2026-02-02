@@ -33,7 +33,7 @@ public class Functions {
 
     public static void sendEmailToUser(ArrayList<String> emails){
         for(String email : emails){
-            System.out.println("Email enviado a: " + email);
+            sendEmailToUser(email);
         }
 
     }
