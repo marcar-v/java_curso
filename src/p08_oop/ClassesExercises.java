@@ -55,13 +55,11 @@ public class ClassesExercises {
         // 10. Crea una clase Product y un metodo que aplique un descuento sobre su precio.
         var milk = new Product(6.4f);
         var coffee = new Product(15.87f);
+        var tofu = new Product(1f);
 
         milk.applyDiscount(0f);
         coffee.applyDiscount(1.87f);
-
-
-
-
+        tofu.applyDiscount(0.5f);
     }
 
 }
