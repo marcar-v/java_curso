@@ -1,11 +1,11 @@
 package p08_oop;
 
-import p08_oop_classesExercises.Book;
-import p08_oop_classesExercises.Car;
-import p08_oop_classesExercises.Dog;
+import p08_oop_classesExercises.*;
+
+import java.util.ArrayList;
 
 public class ClassesExercises {
-    public static void main(String[] args){
+    static void main(String[] args){
         // 1. Crea una clase Book con atributos title y author. Crea un objeto y muestra sus datos.
         var book = new Book("The Lord of the Rings", "J.R.R.Tolkien", 1930);
         System.out.println(book.title + ", " + book.author);
@@ -26,17 +26,41 @@ public class ClassesExercises {
         myCar.showData();
 
         // 5. Crea una clase Student con atributo score y un metodo que diga si aprobó (mayor o igual a 60).
-
+        var student = new Student(0);
+        student.examPass();
 
         // 6. Crea una clase BankAccount con atributo balance y un metodo deposit() que sume el saldo.
+        var account = new BankAccount(106f);
+        account.deposit(554.5f);
 
         // 7. Crea una clase Rectangle con métodos para calcular el área y el perímetro.
+        var rectangle = new Rectangle(10, 5);
+        rectangle.setPerimeter();
+        rectangle.surfaceArea();
 
         // 8. Crea una clase Worker que reciba nombre y salario, y un metodo para mostrar su salario.
+        var worker = new Worker("Juana", 889.74f);
+        worker.setSalary();
 
         // 9. Crea varios objetos Person y guárdalos en un ArrayList.
+        var person = new Person("Ana", 18);
+        var enemy = new Person("Perico", 17);
+        var lucy = new Person("Lucy", 28);
+
+        var characters = new ArrayList<Person>();
+        characters.add(person);
+        characters.add(enemy);
+        characters.add(lucy);
 
         // 10. Crea una clase Product y un metodo que aplique un descuento sobre su precio.
+        var milk = new Product(6.4f);
+        var coffee = new Product(15.87f);
+
+        milk.applyDiscount(0f);
+        coffee.applyDiscount(1.87f);
+
+
+
 
     }
 
