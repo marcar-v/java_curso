@@ -61,5 +61,4 @@ public class ClassesExercises {
         coffee.applyDiscount(1.87f);
         tofu.applyDiscount(0.5f);
     }
-
 }
