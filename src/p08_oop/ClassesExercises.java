@@ -8,7 +8,7 @@ public class ClassesExercises {
     static void main(String[] args){
         // 1. Crea una clase Book con atributos title y author. Crea un objeto y muestra sus datos.
         var book = new Book("The Lord of the Rings", "J.R.R.Tolkien", 1930);
-        System.out.println(book.title + ", " + book.author);
+        book.showBookData();
 
         // 2. Crea una clase Dog con un metodo bark() que imprima su sonido.
         var dog = new Dog();
@@ -31,7 +31,7 @@ public class ClassesExercises {
 
         // 6. Crea una clase BankAccount con atributo balance y un metodo deposit() que sume el saldo.
         var account = new BankAccount(106f);
-        account.deposit(554.5f);
+        account.deposit(100);
 
         // 7. Crea una clase Rectangle con métodos para calcular el área y el perímetro.
         var rectangle = new Rectangle(10, 5);

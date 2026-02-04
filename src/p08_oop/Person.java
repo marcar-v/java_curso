@@ -14,7 +14,6 @@ public class Person {
     //Funciones o métodos
     public void sayHello(){
         System.out.println("Soy " + name + " y tengo " + age + " años.");
-
     }
 
     //Getter
