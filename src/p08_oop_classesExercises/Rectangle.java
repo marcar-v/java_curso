@@ -6,8 +6,15 @@ public class Rectangle {
     float surface;
     float perimeter;
 
-    public Rectangle(int height, int width){
+    public Rectangle(float height, float width){
+        this.setHeight(height);
+        this.setWidth(width);
+    }
+
+    public void setHeight(float height){
         this.height = height;
+    }
+    public void setWidth(float width){
         this.width = width;
     }
 
