@@ -26,7 +26,7 @@ public class ClassesExercises {
         myCar.showData();
 
         // 5. Crea una clase Student con atributo score y un metodo que diga si aprobó (mayor o igual a 60).
-        var student = new Student();
+        var student = new Student("Juan", 25, 0);
         student.examPass();
 
         // 6. Crea una clase BankAccount con atributo balance y un metodo deposit() que sume el saldo.

@@ -48,8 +48,8 @@ public class AccessModifiersExercises {
         rectangle.surfaceArea();
 
         // 9. Crea una clase Student con el atributo privado grade. Agrega los métodos setGrade(int grade) y isPassed() que retorne true si la nota es mayor o igual a 60.
-        var student = new Student();
-        var student1 = new Student();
+        var student = new Student("Juan", 25, 0);
+        var student1 = new Student("Ana", 28, 0);
 
         student.setScore(50);
         student.examPass();

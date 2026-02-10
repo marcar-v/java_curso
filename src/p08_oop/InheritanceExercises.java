@@ -1,13 +1,24 @@
 package p08_oop;
 
+import p08_oop_classesExercises.Car;
+import p08_oop_classesExercises.Student;
+
 public class InheritanceExercises {
     public static void main(String[] args) {
 
         // 1. Crea una clase Vehicle con un metodo move(). Luego crea una subclase Car que herede de Vehicle y agrega el metodo honk().
+        var myCar = new Car("Toyota", "Corolla");
+        myCar.honk();
 
         // 2. Define una clase Person con los atributos name y age. Luego crea una clase Student que agregue el atributo grade y un metodo study().
+        var student = new Student("Pepe", 45, 10);
+        student.study();
 
         // 3. Crea una clase Animal con el metodo makeSound(). Haz que Dog diga “Woof” y Cat diga “Meow” sobrescribiendo ese metodo.
+        var myDog = new Inheritance.Dog("Mica", 7);
+        myDog.makeSound();
+        var myCat = new Inheritance.Cat("Belevent");
+        myCat.makeSound();
 
         // 4. La clase Employee tiene los atributos name y salary. Manager hereda de Employee y agrega el atributo department.
 

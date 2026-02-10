@@ -26,6 +26,10 @@ public class Inheritance {
         public void eat(){
             System.out.println("El animal llamado " + name + " está comiendo");
         }
+
+        public void makeSound(){
+
+        }
     }
 
     public static class Dog extends Animal{
@@ -39,6 +43,11 @@ public class Inheritance {
         public void eat(){
             System.out.println("El perro llamado " + super.name + " está comiendo");
         }
+
+        @Override
+        public void makeSound() {
+            System.out.println("Woof");
+        }
     }
 
     public static class Cat extends Animal{
@@ -49,6 +58,11 @@ public class Inheritance {
         @Override
         public void eat() {
             System.out.println("El gato llamado " + super.name + " está comiendo.");
+        }
+
+        @Override
+        public void makeSound() {
+            System.out.println("Meow");
         }
     }
     public static class Bird extends Animal{
