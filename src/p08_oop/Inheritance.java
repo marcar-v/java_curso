@@ -1,78 +1,28 @@
 package p08_oop;
 
+import p08_oop_classesExercises.Animal;
+
 public class Inheritance {
     public static void main(String[] args) {
-        var animal = new Animal("Rata");
-        animal.eat();
 
-        var dog = new Dog("Tork", 12);
-        dog.eat();
-
-        var cat = new Cat("Belevent");
+        var cat = new Cats("Eme");
         cat.eat();
 
-        var bird = new Bird("Pichí");
-        bird.fly();
+        var bird = new Lizzard("Wizard");
+        bird.eat();
 
     }
 
-    public static class Animal{
-        final private String name;
+    public static class Lizzard extends Animal {
 
-        public Animal(String name){
-            this.name = name;
-        }
-
-        public void eat(){
-            System.out.println("El animal llamado " + name + " está comiendo");
-        }
-
-        public void makeSound(){
-
-        }
-    }
-
-    public static class Dog extends Animal{
-        int age;
-        public Dog(String name, int age) {
-            super(name);
-            this.age = age;
-        }
-
-        @Override
-        public void eat(){
-            System.out.println("El perro llamado " + super.name + " está comiendo");
-        }
-
-        @Override
-        public void makeSound() {
-            System.out.println("Woof");
-        }
-    }
-
-    public static class Cat extends Animal{
-        public Cat(String name){
+        public Lizzard(String name) {
             super(name);
         }
-
-        @Override
-        public void eat() {
-            System.out.println("El gato llamado " + super.name + " está comiendo.");
-        }
-
-        @Override
-        public void makeSound() {
-            System.out.println("Meow");
-        }
     }
-    public static class Bird extends Animal{
-        public Bird(String name){
+
+    public static class Cats extends Animal {
+        public Cats(String name) {
             super(name);
         }
-
-        public void fly(){
-            System.out.println("El pájaro está volando");
-        }
-
     }
 }

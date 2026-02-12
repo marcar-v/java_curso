@@ -11,7 +11,7 @@ public class ClassesExercises {
         book.showBookData();
 
         // 2. Crea una clase Dog con un metodo bark() que imprima su sonido.
-        var dog = new Dog();
+        var dog = new Dog("Mica");
         dog.bark();
 
         // 3. Añade un constructor a la clase Book que reciba title y author.
